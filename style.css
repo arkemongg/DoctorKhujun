@@ -1,29 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto;
 }
- 
-.navbtns{
+
+.navbtns {
     height: 30px;
 
 }
-.dr{
+
+.dr {
     color: darkorange;
     font-weight: 400;
     letter-spacing: 1.5px;
     font-size: 40px;
 }
-.khujun{
+
+.khujun {
     color: #00a85f;
     font-weight: 400;
     letter-spacing: 1.5px;
     font-size: 35px;
 }
-.page-one{
+
+.page-one {
     z-index: -10000000;
     padding: 0;
     height: 100vh;
@@ -31,65 +34,85 @@
     background-size: cover;
     background-image: url("./images/hospital.jpg");
 }
-.search-head{
+
+.search-head {
     position: relative;
-    top:35%;
+    top: 35%;
     font-size: 50px;
     font-family: Roboto;
     font-weight: 900;
 }
 
-.search-title{
+.search-title {
     color: #000503;
 }
-.search-doc{
+
+.search-doc {
     color: darkorange;
 }
-.searchbar{
+
+.searchbar {
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 50px;
     font-family: roboto;
     font-weight: 900;
     max-width: 1000px;
     margin: auto;
 }
-.search{
+
+.search {
     height: 50px;
     letter-spacing: 2px;
 }
-.search-btn{
+
+.search-btn {
     height: 50px;
 }
 
-.search-btn:hover{
+.search-btn:hover {
     letter-spacing: 1px;
     transition: 0.3s;
 }
-.page-two{
+
+.page-two {
     margin-top: 100px;
 }
 
-  /* Second Page link */
-  .all-doctors{
+/* Second Page link */
+.all-doctors {
     text-align: center;
     position: relative;
     top: 45%;
-  }
-   /* Second Page */
+}
 
-  @media only screen and (max-width: 600px) {
+/* Second Page */
+
+@media only screen and (max-width: 600px) {
     .page-two {
-      height: 900px;
+        height: 900px;
     }
-    .search-title{
-        color: #f9fdfc;
-    }
-  }
 
-  @media only screen and (max-width: 1400px) {
-    
-    .search-title{
+    .search-title {
         color: #f9fdfc;
     }
-  }
+}
+
+@media only screen and (max-width: 1400px) {
+
+    .search-title {
+        color: #f9fdfc;
+    }
+}
+
+.catagories {
+    margin-top: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    margin: 10px;
+}
