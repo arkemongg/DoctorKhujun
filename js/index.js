@@ -13,7 +13,7 @@ fetch("../database/database.json")
         <h5 class="card-title">${data[i].name}</h5>
         <p class="card-text">${data[i].description}
         </p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="#" class="btn btn-primary">View Doctors</a>
       </div>
     </div>
 `
