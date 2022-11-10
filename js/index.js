@@ -21,6 +21,33 @@ fetch("../database/database.json")
   })
 
 
+  const doctorsCard = document.getElementById("box");
+
+  for(let i = 1;i<100;i++){
+    doctorsCard.innerHTML +=`<div  class="box${i} box">
+    <div class="image-doctor">
+        
+    </div>
+    <!-- <div class="social-doctors">
+    <li class="facebook"></li>
+    <li class="facebook"></li>
+    <li class="facebook"></li>
+    <li class="facebook"></li>
+    </div> -->
+
+    <div class="doctor-name">
+        <h2 class="d-name">Dr.Zinia Zara</h2>
+        <h3 class="d-detail">Cardiology</h3>
+        <h4 class="d-education">MBBS, M.D of Medicine</h4>
+    </div>
+    <div class="view-docotor">
+        <button class="btn btn-primary">View Details</button>
+    </div>
+    
+</div>`
+  }
+
+
 
 
 

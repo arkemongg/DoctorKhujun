@@ -116,3 +116,74 @@
 .card {
     margin: 10px;
 }
+
+/* doctors page */
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    background: #00A85F;
+}
+.flex-container{
+    display: flex;
+    width: 90%;
+    height: auto;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    min-width: 350px;
+    height: 400px;
+    background: #FF8C00;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: 15px;
+    border-radius: 10px;
+}
+.doctors{
+    margin-top: 80px;
+}
+.image-doctor{
+    width: 150px;
+    height: 150px;
+    background: rgb(243, 240, 240);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 100%;
+    background-image: url("/images/drz.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.social-doctors{
+    width: 150px;
+    height: 40px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+}
+.social-doctors li{
+    list-style-type: none;
+}
+.social-doctors li.facebook{
+    width: 40px;
+    height: 40px;
+    background-image: url("/images/facebook-app-symbol.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.doctor-name{
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.view-docotor{
+    width: 120px;
+    height: 40px;
+    margin: auto;
+    margin-top: 30px;
+}
