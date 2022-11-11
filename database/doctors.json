@@ -1,0 +1,61 @@
+[
+    {
+        "id" : "d1",
+        "designation" : "General physician and physiologist",
+        "name" : "Dr. Hasan Hadiur Rahman",
+        "image" : "",
+        "description": "M.B.B.S(Dhaka), C.M.U(Ultra), B.M.D.C Regi no : A93602",
+        "Phone" : "01755235500",
+        "email" : "hadi.hridoy@gmail.com",
+        "booking-no" : "01754638588",
+        "hospital" : "City digital diagnostic center.",
+        "address" : "651, Dulu Mantion, Mukterpara Netrakona."
+
+    },
+    {
+        "id" : "d2",
+        "designation" : "Physician of medicine and surgery",
+        "name" : "Dr. Titu Muhan Saha",
+        "image" : "",
+        "description": "M.B.B.S, PGT(Surgery), F.C.P.S(Surgery), E.O.C(Anesthesia),C-Ultra(Dhaka), Mymensingh Medical College.",
+        "booking-no" : "01754638588",
+        "hospital" : "City digital diagnostic center.",
+        "apointment" : "3pm to 7pm regular",
+        "address" : "651, Dulu Mantion, Mukterpara Netrakona."
+    },
+    {
+        "id" : "d3",
+        "designation" : "Medicine, Neuro medicine",
+        "name" : "Dr. Shuvrangshu Banerjee",
+        "image" : "",
+        "description": "M.B.B.S(Dhaka) F.C.P.S(Last-part)Medicine, M.D.(course) Neurology, Mymensingh Medical College.",
+        "booking-no" : "01754638588",
+        "hospital" : "City digital diagnostic center.",
+        "apointment" : "2pm to 7pm regular",
+        "address" : "651, Dulu Mantion, Mukterpara Netrakona."
+    },
+    {
+        "id" : "d4",
+        "designation" : "Medicine and General physician",
+        "name" : "Dr. Shekh Adnin Mourin",
+        "image" : "",
+        "description": "M.B.B.S(Dhaka) B.C.S(Health), Medical Officer at Digital Sadar Hospital, Netrakona.",
+        "booking-no" : "01754638588",
+        "hospital" : "City digital diagnostic center.",
+        "apointment" : "3pm to 6pm regular",
+        "address" : "651, Dulu Mantion, Mukterpara Netrakona."
+    },
+    {
+        "id" : "d5",
+        "designation" : "Medicine specialist",
+        "name" : "Dr. Emdad Ullah Khan",
+        "image" : "",
+        "description": "M.B.B.S(Dhaka) B.C.S(Health),M.C.P.S(Medicine),F.C.P.S(Medicine) M.A.C.P(America), Mymensingh Medical College Hospiital",
+        "booking-no" : "01754638588",
+        "hospital" : "City digital diagnostic center.",
+        "apointment" : "Friday 10am to 6pm",
+        "address" : "651, Dulu Mantion, Mukterpara Netrakona."
+    }
+    
+    
+]
