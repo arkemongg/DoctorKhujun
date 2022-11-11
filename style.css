@@ -187,3 +187,211 @@
     margin: auto;
     margin-top: 30px;
 }
+/* view doctor page */
+
+.doctor-details{
+    width: 100%;
+    height: 100%;
+    background: #00A85F;
+    margin-top: 80px;
+}
+.doctor-dtails-flex-container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+}
+/* view doctor page left-area*/
+.doctor-details-left{
+    margin: auto;
+    margin-top: 20px;
+    min-width: 300px;
+    max-width: 450px;
+    flex-grow: 1;
+    min-height: 900px;
+}
+
+.doctor-details-left-img-area{
+    max-width: 350px;
+    height: 450px;
+    background: #FF8C00;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.doctor-details-left-img{
+    width: 100%;
+    height: 60%;
+    border-top-left-radius: 10px;
+    background: #FF8C00;
+    background-image: url(/images/doc.jpg);
+    border-top-right-radius: 10px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.doctor-details-left-name-area{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+.doctor-details-left-personal-area{
+    max-width: 350px;
+    height: 200px;
+    background: #FF8C00;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.doctor-underline{
+    width: 170px;
+    height: 3px;
+    background: #00A85F;
+    margin-bottom: 12px;
+}
+
+.doctor-details-left-emergency-area{
+    max-width: 350px;
+    height: 120px;
+    background: #FF8C00;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+.doctor-details-left-emergency-img{
+    width: 70px;
+    height: 100%;
+    background-image: url(/images/figure.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.doctor-details-left-emergency-number{
+    width: 300px;
+    height: 100%;
+}
+/* view doctor page right-area */
+.doctor-details-right{
+    
+    margin-top: 30px;
+    margin-bottom: 20px;
+    min-width: 450px;
+    flex-grow: 3;
+    min-height: 900px;
+    background: #FF8C00;
+    border-radius: 10px;
+    
+}
+.doctor-details-right-education-area{
+    width: 100%;
+    height: 300px;
+}
+.doctor-details-right-education-area h3{
+    padding: 20px;
+}
+
+.education-year-institute-degree {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+}
+.odd{
+    background: #f08604;
+}
+.education-year-institute-degree li{
+    list-style-type: none;
+    margin-top: 4px;
+    flex-grow: 1;
+}
+
+.education-year-institute-degree li.education-year{
+    width: 30px;
+}
+.education-year-institute-degree li.education-degree{
+    width: 80px;
+}
+.education-year-institute-degree li.education-institute{
+    width: 220px;
+}
+.education-underline{
+    width: 130px;
+    height: 3px;
+    background: #00A85F;
+    margin: 20px;
+    margin-top: -20px;
+}
+
+/* view doctor page right-area */
+
+.doctor-details-right-experience-area{
+    width: 100%;
+    height: 300px;
+}
+.doctor-details-right-experience-area h3{
+    padding: 20px;
+}
+
+.experience-underline{
+    width: 160px;
+    height: 3px;
+    background: #00A85F;
+    margin: 20px;
+    margin-top: -20px;
+}
+.experience-department-position-hospital{
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+}
+.experience-department-position-hospital li{
+    list-style-type: none;
+    margin-top: 4px;
+    flex-grow: 1;
+}
+.experience-department-position-hospital li.experience-department{
+    width: 30px;
+}
+
+.experience-department-position-hospital li.experience-position{
+    width: 150px;
+}
+.experience-department-position-hospital li.experience-hospital{
+    width: 150px;
+}
+.doctor-details-right-visiting-area-time{
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+}
+.doctor-details-right-visiting-area li {
+    list-style-type: none;
+    margin-top: 4px;
+    flex-grow: 1;
+}
+
+.doctor-details-right-visiting-area li.visiting-day{
+    width: 100px;
+}
+
+@media only screen and (max-width: 870px) {
+
+    .doctor-details-right{
+       
+        margin-left: 0px;
+        
+    }
+}

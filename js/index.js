@@ -13,7 +13,7 @@ fetch("../database/database.json")
         <h5 class="card-title">${data[i].name}</h5>
         <p class="card-text">${data[i].description}
         </p>
-        <a href="#" class="btn btn-primary">View Doctors</a>
+        <a href="./doctorspage.html" class="btn btn-primary">View Doctors</a>
       </div>
     </div>
 `
@@ -41,7 +41,7 @@ fetch("../database/database.json")
         <h4 class="d-education">MBBS, M.D of Medicine</h4>
     </div>
     <div class="view-docotor">
-        <button class="btn btn-primary">View Details</button>
+        <a href="./doctordetails.html" class="btn btn-primary">View Details</a>
     </div>
     
 </div>`
