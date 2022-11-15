@@ -278,7 +278,7 @@
     width: 300px;
     height: 100%;
 }
-/* view doctor page right-area */
+/* doctordetails.html page right-area */
 .doctor-details-right{
     
     margin-top: 30px;
@@ -292,7 +292,7 @@
 }
 .doctor-details-right-education-area{
     width: 100%;
-    height: 300px;
+    height: 250px;
 }
 .doctor-details-right-education-area h3{
     padding: 20px;
@@ -331,7 +331,7 @@
     margin-top: -20px;
 }
 
-/* view doctor page right-area */
+/*doctordetails page Experienced area */
 
 .doctor-details-right-experience-area{
     width: 100%;
@@ -370,6 +370,12 @@
 .experience-department-position-hospital li.experience-hospital{
     width: 150px;
 }
+
+/* doctordetails page visiting Hour area */
+.doctor-details-right-visiting-area{
+    width: 100%;
+    height: 200px;
+}
 .doctor-details-right-visiting-area-time{
     width: 100%;
     height: 40px;
@@ -381,12 +387,76 @@
     list-style-type: none;
     margin-top: 4px;
     flex-grow: 1;
+    width: 50%;
 }
 
-.doctor-details-right-visiting-area li.visiting-day{
-    width: 100px;
+.doctor-details-right-visiting-area h3{
+
+    padding: 20px;
+
 }
 
+.doctor-details-right-visiting-area h3 span{
+
+    font-size: 10px;
+    position: relative;
+    top: -3px;
+
+}
+.underline-appointment{
+    width: 130px;
+    height: 3px;
+    background: #00A85F;
+    margin: 20px;
+    width: 150px;
+    height: 3px;
+    background: #00A85F;
+    margin: 20px;
+    margin-top: -20px;
+}
+p span.h3-visit{
+    font-size: 10px;
+    display: none;
+}
+/* Booking and Address area */
+
+.doctor-details-right-address-area{
+    width: 100%;
+    height: 310px;
+}
+.doctor-details-right-address-area-booking{
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+}
+.doctor-details-right-address-area h3{
+
+    padding: 20px;
+
+}
+.doctor-details-right-address li{
+    list-style-type: none;
+    margin-top: 10px;
+    flex-grow: 1;
+}
+.doctor-details-right-address li.one{
+    width: 40%;
+}
+.doctor-details-right-address li.two{
+    width: 60%;
+}
+.underline-address{
+    width: 260px;
+    height: 3px;
+    background: #00A85F;
+    margin: 20px;
+    height: 3px;
+    background: #00A85F;
+    margin: 20px;
+    margin-top: -20px;
+}
 @media only screen and (max-width: 870px) {
 
     .doctor-details-right{
